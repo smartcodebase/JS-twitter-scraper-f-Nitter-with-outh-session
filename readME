@@ -48,3 +48,8 @@ Always Works: Even if Twitter changes cookies frequently
 Efficient: Only connects to Chrome when necessary
 Persistent: Saves working cookies for future use
 So yes, when Twitter changes cookies and the API fails, the system will automatically detect this and get fresh cookies from your Chrome session! 🎉
+
+
+## Example 
+node src/cli.js webcupid95625 --kind tweets --out result.json
+node src/cli.js webcupid95625 --following --out following.json
